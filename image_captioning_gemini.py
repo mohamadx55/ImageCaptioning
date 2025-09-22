@@ -1,4 +1,5 @@
 import os
+from dotenv import load_dotenv
 import requests
 from PIL import Image
 from io import BytesIO
@@ -6,6 +7,8 @@ from bs4 import BeautifulSoup
 from google import genai
 from google.genai import types
 
+
+load_dotenv()
 
 def generate(img_data):
     """
