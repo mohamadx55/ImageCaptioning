@@ -9,7 +9,7 @@ img_path = "image.png"
 
 def generate():
     client = genai.Client(
-        api_key="AIzaSyD3ZUp4kU8GXdZaqw-s7hTVnqGdlr5jKaU",
+        api_key="",
     )
 
     model = "gemini-2.5-flash-lite"
